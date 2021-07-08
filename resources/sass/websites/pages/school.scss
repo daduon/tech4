@@ -1,0 +1,12 @@
+@import"../../variables";
+@import '~@fancyapps/fancybox/dist/jquery.fancybox.min.css';
+@import'program-box.scss';
+@import'gallery.scss';
+#school {
+    section.program,
+    section.benefit,
+    section.gallery,
+    section.courses {
+        padding-top: 100px;
+    }
+}

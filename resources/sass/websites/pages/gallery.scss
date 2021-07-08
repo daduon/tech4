@@ -1,0 +1,47 @@
+@import '~@fancyapps/fancybox/dist/jquery.fancybox.min.css';
+.gallery {
+    .content-image {
+        position: relative;
+        &::before {
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
+            background-color: #4676c6;
+            content: "";
+            width: 24%;
+            height: 5px;
+            bottom: -3px;
+            right: 0;
+            position: absolute;
+        }
+        &::after {
+            content: "";
+            background-color: #4676c6;
+            width: 100%;
+            left: 0;
+            bottom: 0;
+            height: 5px;
+            position: absolute;
+        }
+        .card-image {
+            &::before {
+                clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+                background-color: #4676c6;
+                content: "";
+                width: 24%;
+                height: 5px;
+                top: -3px;
+                left: 0;
+                position: absolute;
+            }
+            &::after {
+                content: "";
+                background-color: #4676c6;
+                width: 100%;
+                left: 0;
+                top: 0px;
+                height: 5px;
+                position: absolute;
+            }
+            img {}
+        }
+    }
+}

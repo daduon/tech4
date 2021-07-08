@@ -1,0 +1,230 @@
+@font-face {
+  font-family: "title-en";
+  src: url(/fonts/LemonMilk.woff2?6c8f946551602e10291477dbf005d1c7) format("woff2"), url(/fonts/LemonMilk.woff?4b08c1d289fedffff79cbc2812aa7d30) format("woff"), url(/fonts/LemonMilk.ttf?e30caaa902207e0a91e97d57748d3b0b) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "text-bold-en";
+  src: url(/fonts/GothamBold.woff2?d687cebdc496ee0358c734967035a386) format("woff2"), url(/fonts/Gotham-Bold.woff?3d92b1e15f336e5dc9519f7463367e37) format("woff"), url(/fonts/Gotham-Bold.ttf?5383ebb9d229cb2bcf77dba10540792a) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "text-en";
+  src: url(/fonts/GothamBook.woff2?174f6ce7339bb9df0491c4252119e57c) format("woff2"), url(/fonts/Gotham-Book.woff?843e5b0b14221ccde26a01cbd8942544) format("woff"), url(/fonts/Gotham-Book.ttf?dc7b424156648693d513ad8fc8c3da04) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "title-kh";
+  src: url(/fonts/Dangrek.woff2?898a90821bdf10a7e6d2198f70073a88) format("woff2"), url(/fonts/Dangrek.woff?e1cd2be94be98ca6eaba82ffce1e8588) format("woff"), url(/fonts/Dangrek.ttf?f89c626ce9bacea8918b4dedce0931e1) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "text-bold-kh";
+  src: url(/fonts/Kantumruy-Bold.woff2?0e3d6ea583862c3e387f0fec9097ced5) format("woff2"), url(/fonts/Kantumruy-Bold.woff?197f75ef79190708eb5e0c062ec3b5a6) format("woff"), url(/fonts/Kantumruy-Bold.ttf?5fa637e43f769d9d3ce1e505db6c3127) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "text-light-kh";
+  src: url(/fonts/Kantumruy-Light.woff2?c5c03f1c20c0b685d2343d7b4466c0a1) format("woff2"), url(/fonts/KantumruyLight.woff?af5b4903821b28ab62bea71bccd5860c) format("woff"), url(/fonts/KantumruyLight.ttf?b0312f0828970d39ef5dde7982a1bba6) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.swiper-slide:nth-child(1) .course-box,
+.swiper-slide:nth-child(7n-7) .course-box {
+  background-color: #68b8e7;
+}
+
+.swiper-slide:nth-child(2) .course-box,
+.swiper-slide:nth-child(8n-8) .course-box {
+  background-color: #51be95;
+}
+
+.swiper-slide:nth-child(3) .course-box,
+.swiper-slide:nth-child(5n-5) .course-box {
+  background-color: #512e89;
+}
+
+.swiper-slide:nth-child(4) .course-box,
+.swiper-slide:nth-child(6n-6) .course-box {
+  background-color: #f57e20;
+}
+
+.swiper-slide .course-box {
+  width: 100%;
+  height: 100%;
+  padding: 12% 0;
+  justify-content: center;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.16);
+}
+
+.swiper-slide .course-box .content-box {
+  width: 100%;
+  padding: 0 20px;
+}
+
+.swiper-slide .course-box .content-box .icon-course {
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+.swiper-slide .course-box .content-box .icon-course img {
+  width: 60px;
+}
+
+.swiper-slide .course-box .content-box .content {
+  text-align: left;
+}
+
+.swiper-slide .course-box .content-box .content h4 {
+  font-size: 18px;
+  color: #fff;
+}
+
+.swiper-slide .course-box .content-box .content .sub-title p {
+  font-size: 14px;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+#contact-us .head {
+  margin-top: 100px;
+  text-align: center;
+}
+
+#contact-us .head .sub-title p {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+#contact-us .icon {
+  text-align: center;
+}
+
+#contact-us .icon .navbar-nav {
+  display: -webkit-inline-box;
+}
+
+#contact-us .icon .navbar-nav li {
+  margin-right: 10px;
+}
+
+#contact-us .course .swiper-slide .course-box .content-box {
+  width: 100%;
+  padding: 0 30px;
+}
+
+#contact-us .course .swiper-slide .course-box .content-box .icon-course {
+  text-align: left;
+}
+
+#contact-us .course .swiper-slide .course-box .content-box .icon-course img {
+  width: 50px;
+}
+
+#contact-us .course .swiper-slide .course-box .content-box .content {
+  text-align: left;
+}
+
+#contact-us .course .swiper-slide .course-box .content-box .content h4 {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+#contact-us .course .swiper-slide .course-box .content-box .content .sub-title p {
+  font-size: 14px;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+#contact-us .course .swiper-slide .course-box .content-box .content .button a {
+  background-color: #fff;
+  margin: 25px 0;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+#contact-us .course .swiper-slide .course-box .content-box .content .button a span,
+#contact-us .course .swiper-slide .course-box .content-box .content .button a i {
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+#contact-us .course .swiper-slide .course-box .content-box .content .button a span {
+  margin-right: 10px;
+}
+
+#contact-us .course .swiper-slide:nth-child(1) .course-box {
+  background-color: #51be95;
+}
+
+#contact-us .course .swiper-slide:nth-child(2) .course-box {
+  background-color: #512e89;
+}
+
+#contact-us .course .swiper-slide:nth-child(3) .course-box {
+  background-color: #68b8e7;
+}
+
+#contact-us .map {
+  border-radius: 20px;
+}
+
+#contact-us .map iframe {
+  border-radius: 20px;
+}
+
+#contact-us .form {
+  padding-bottom: 100px;
+}
+
+#contact-us .form label {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#contact-us .form label span {
+  font-size: 20px;
+}
+
+#contact-us .form input {
+  height: 60px;
+  border-radius: 10px;
+}
+
+#contact-us .form textarea {
+  border-radius: 10px;
+}
+
+#contact-us .form button {
+  border: none;
+  background-color: #51be95;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+#contact-us .form button span {
+  font-size: 16px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+#contact-us .form button i {
+  font-size: 25px;
+  vertical-align: middle;
+}
+

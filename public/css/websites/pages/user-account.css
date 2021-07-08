@@ -1,0 +1,348 @@
+@font-face {
+  font-family: "title-en";
+  src: url(/fonts/LemonMilk.woff2?6c8f946551602e10291477dbf005d1c7) format("woff2"), url(/fonts/LemonMilk.woff?4b08c1d289fedffff79cbc2812aa7d30) format("woff"), url(/fonts/LemonMilk.ttf?e30caaa902207e0a91e97d57748d3b0b) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "text-bold-en";
+  src: url(/fonts/GothamBold.woff2?d687cebdc496ee0358c734967035a386) format("woff2"), url(/fonts/Gotham-Bold.woff?3d92b1e15f336e5dc9519f7463367e37) format("woff"), url(/fonts/Gotham-Bold.ttf?5383ebb9d229cb2bcf77dba10540792a) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "text-en";
+  src: url(/fonts/GothamBook.woff2?174f6ce7339bb9df0491c4252119e57c) format("woff2"), url(/fonts/Gotham-Book.woff?843e5b0b14221ccde26a01cbd8942544) format("woff"), url(/fonts/Gotham-Book.ttf?dc7b424156648693d513ad8fc8c3da04) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "title-kh";
+  src: url(/fonts/Dangrek.woff2?898a90821bdf10a7e6d2198f70073a88) format("woff2"), url(/fonts/Dangrek.woff?e1cd2be94be98ca6eaba82ffce1e8588) format("woff"), url(/fonts/Dangrek.ttf?f89c626ce9bacea8918b4dedce0931e1) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "text-bold-kh";
+  src: url(/fonts/Kantumruy-Bold.woff2?0e3d6ea583862c3e387f0fec9097ced5) format("woff2"), url(/fonts/Kantumruy-Bold.woff?197f75ef79190708eb5e0c062ec3b5a6) format("woff"), url(/fonts/Kantumruy-Bold.ttf?5fa637e43f769d9d3ce1e505db6c3127) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "text-light-kh";
+  src: url(/fonts/Kantumruy-Light.woff2?c5c03f1c20c0b685d2343d7b4466c0a1) format("woff2"), url(/fonts/KantumruyLight.woff?af5b4903821b28ab62bea71bccd5860c) format("woff"), url(/fonts/KantumruyLight.ttf?b0312f0828970d39ef5dde7982a1bba6) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.swiper-slide:nth-child(1) .course-box,
+.swiper-slide:nth-child(7n-7) .course-box {
+  background-color: #68b8e7;
+}
+
+.swiper-slide:nth-child(2) .course-box,
+.swiper-slide:nth-child(8n-8) .course-box {
+  background-color: #51be95;
+}
+
+.swiper-slide:nth-child(3) .course-box,
+.swiper-slide:nth-child(5n-5) .course-box {
+  background-color: #512e89;
+}
+
+.swiper-slide:nth-child(4) .course-box,
+.swiper-slide:nth-child(6n-6) .course-box {
+  background-color: #f57e20;
+}
+
+.swiper-slide .course-box {
+  width: 100%;
+  height: 100%;
+  padding: 12% 0;
+  justify-content: center;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.16);
+}
+
+.swiper-slide .course-box .content-box {
+  width: 100%;
+  padding: 0 20px;
+}
+
+.swiper-slide .course-box .content-box .icon-course {
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+.swiper-slide .course-box .content-box .icon-course img {
+  width: 60px;
+}
+
+.swiper-slide .course-box .content-box .content {
+  text-align: left;
+}
+
+.swiper-slide .course-box .content-box .content h4 {
+  font-size: 18px;
+  color: #fff;
+}
+
+.swiper-slide .course-box .content-box .content .sub-title p {
+  font-size: 14px;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+#acc .sub-acc {
+  border-radius: 30px;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.16);
+  margin: 50px 0;
+}
+
+#acc .sub-acc .profile {
+  border-radius: 30px;
+  background-color: #0c2041;
+  height: 100%;
+}
+
+#acc .sub-acc .profile .img {
+  text-align: center;
+  padding: 25px 0;
+}
+
+#acc .sub-acc .profile .img img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+#acc .sub-acc .profile .name {
+  text-align: center;
+}
+
+#acc .sub-acc .profile .name h4 {
+  color: #fff;
+}
+
+#acc .sub-acc .profile form {
+  text-align: center;
+}
+
+#acc .sub-acc .profile form button {
+  border: none;
+  background-color: #fff;
+  margin: 25px 0;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+#acc .sub-acc .profile form button span {
+  font-size: 18px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+#acc .sub-acc .profile form button i {
+  font-size: 25px;
+  vertical-align: middle;
+}
+
+#acc .sub-acc .cover-info {
+  padding: 30px 30px;
+  position: relative;
+}
+
+#acc .sub-acc .cover-info .head {
+  margin-bottom: 20px;
+}
+
+#acc .sub-acc .cover-info .form label {
+  font-weight: 600;
+}
+
+#acc .sub-acc .cover-info .form input {
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+  font-size: 13px;
+}
+
+#acc .sub-acc .cover-info .form .form-row .form-group:nth-child(1),
+#acc .sub-acc .cover-info .form .form-row .form-group:nth-child(3) {
+  padding-right: 30px;
+}
+
+#acc .sub-acc .cover-info .form .form-row .form-group:nth-child(2),
+#acc .sub-acc .cover-info .form .form-row .form-group:nth-child(4) {
+  padding-left: 30px;
+}
+
+#acc .sub-acc .cover-info .form .update {
+  border: none;
+  background-color: #0c2041;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  position: absolute;
+  right: 30px;
+  bottom: 25px;
+}
+
+#acc .sub-acc .cover-info .form .update span {
+  font-size: 18px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+#acc .sub-acc .cover-info .form .update i {
+  font-size: 25px;
+  vertical-align: middle;
+}
+
+#acc .rewards {
+  padding-bottom: 100px;
+}
+
+#acc .rewards .header .head {
+  display: flex;
+  align-items: flex-end;
+}
+
+#acc .rewards .header .head img {
+  width: 50px;
+}
+
+#acc .rewards .header .head h3 {
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+
+#acc .rewards .header .box {
+  width: 239px;
+  height: 100%;
+  margin-left: auto;
+  background-color: #0c2041;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+#acc .rewards .header .box h5 {
+  margin-bottom: 0;
+  vertical-align: middle;
+  line-height: 1.7;
+  color: #fff;
+}
+
+#acc .rewards .swiper-slide .course-box .content-box .content .button a {
+  background-color: #fff;
+  margin: 25px 0;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+#acc .rewards .swiper-slide .course-box .content-box .content .button a span,
+#acc .rewards .swiper-slide .course-box .content-box .content .button a i {
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+#acc .rewards .swiper-slide .course-box .content-box .content .button a span {
+  margin-right: 10px;
+}
+
+#exampleModalRewads,
+#exampleModalCourse {
+  top: 5%;
+}
+
+#exampleModalRewads .modal-content,
+#exampleModalCourse .modal-content {
+  border-radius: 25px;
+}
+
+#exampleModalRewads .modal-content .modal-header-close,
+#exampleModalCourse .modal-content .modal-header-close {
+  padding-top: 10px;
+}
+
+#exampleModalRewads .modal-content .modal-header-close button,
+#exampleModalCourse .modal-content .modal-header-close button {
+  font-size: 30px;
+}
+
+#exampleModalRewads .modal-content .modal-body,
+#exampleModalCourse .modal-content .modal-body {
+  padding: 0px 20px 40px 20px;
+}
+
+#exampleModalRewads .modal-content .modal-body .col-6,
+#exampleModalCourse .modal-content .modal-body .col-6 {
+  padding: 0 5px;
+}
+
+#exampleModalRewads .modal-content .course-box,
+#exampleModalCourse .modal-content .course-box {
+  height: 100%;
+}
+
+#exampleModalRewads .modal-content .course-box .content-box,
+#exampleModalCourse .modal-content .course-box .content-box {
+  width: 100%;
+  padding: 0 20px;
+}
+
+#exampleModalRewads .modal-content .course-box .content-box .icon-course img,
+#exampleModalCourse .modal-content .course-box .content-box .icon-course img {
+  width: 40px;
+}
+
+#exampleModalRewads .modal-content .course-box .content-box .content .title,
+#exampleModalCourse .modal-content .course-box .content-box .content .title {
+  font-size: 13px;
+}
+
+#exampleModalRewads .modal-content .course-box .content-box .content .sub-title h6,
+#exampleModalCourse .modal-content .course-box .content-box .content .sub-title h6 {
+  font-size: 12px;
+}
+
+#exampleModalRewads .modal-content .sub-header,
+#exampleModalCourse .modal-content .sub-header {
+  padding: 20px 0;
+}
+
+#exampleModalRewads .modal-content .sub-header h6,
+#exampleModalCourse .modal-content .sub-header h6 {
+  margin-bottom: 0;
+}
+
+#exampleModalRewads .modal-content .list-group li,
+#exampleModalCourse .modal-content .list-group li {
+  padding: 5px 0;
+  border: none;
+  box-shadow: unset;
+}
+
+#exampleModalRewads .modal-content .list-group li img,
+#exampleModalCourse .modal-content .list-group li img {
+  margin-right: 10px;
+}
+
+#exampleModalRewads .modal-content .button,
+#exampleModalCourse .modal-content .button {
+  margin: 20px 0;
+}
+
+#exampleModalRewads .modal-content .button a,
+#exampleModalCourse .modal-content .button a {
+  background-color: #0c2041;
+  padding: 13px 20px;
+  border-radius: 10px;
+  color: #fff;
+}
+

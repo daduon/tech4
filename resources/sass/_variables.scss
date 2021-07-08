@@ -1,0 +1,70 @@
+//font
+@font-face {
+    font-family: 'title-en';
+    src: url('../fonts/LemonMilk.woff2') format('woff2'), url('../fonts/LemonMilk.woff') format('woff'), url('../fonts/LemonMilk.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'text-bold-en';
+    src: url('../fonts/GothamBold.woff2') format('woff2'), url('../fonts/Gotham-Bold.woff') format('woff'), url('../fonts/Gotham-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'text-en';
+    src: url('../fonts/GothamBook.woff2') format('woff2'), url('../fonts/Gotham-Book.woff') format('woff'), url('../fonts/Gotham-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'title-kh';
+    src: url('../fonts/Dangrek.woff2') format('woff2'), url('../fonts/Dangrek.woff') format('woff'), url('../fonts/Dangrek.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'text-bold-kh';
+    src: url('../fonts/Kantumruy-Bold.woff2') format('woff2'), url('../fonts/Kantumruy-Bold.woff') format('woff'), url('../fonts/Kantumruy-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'text-light-kh';
+    src: url('../fonts/Kantumruy-Light.woff2') format('woff2'), url('../fonts/KantumruyLight.woff') format('woff'), url('../fonts/KantumruyLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// Body
+$body-bg: #f8fafc;
+// Typography
+$font-family-sans-serif: 'chipmong',
+sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+// Colors
+$text-body: #212529;
+$main:#0c2041;
+$red-main: #fa695f;
+$blue-main:#68b8e7;
+$orange-main:#f57e20;
+$green-main:#51be95;
+$violet-main:#512e89;
+$white: #ffffff;
+$text-bold:#000000;
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;

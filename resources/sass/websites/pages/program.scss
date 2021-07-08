@@ -1,0 +1,167 @@
+@import'../../variables';
+@import'modal-box.scss';
+@import"program-box.scss";
+.courses {
+    padding-top: 100px;
+    .list-course {
+        .col-3 {
+            &:nth-child(1),
+            &:nth-child(7n-7) {
+                .course {
+                    background-color: $blue-main;
+                }
+            }
+            &:nth-child(2),
+            &:nth-child(8n-8) {
+                .course {
+                    background-color: $green-main;
+                }
+            }
+            &:nth-child(3),
+            &:nth-child(5n-5) {
+                .course {
+                    background-color: $violet-main;
+                }
+            }
+            &:nth-child(4),
+            &:nth-child(6n-6) {
+                .course {
+                    background-color: $orange-main;
+                }
+            }
+            .course {
+                padding: 30px 20px;
+                border-radius: 15px;
+                .icon-course {
+                    height: 50px;
+                    img.img-fluid {
+                        height: 50px;
+                        padding-bottom: 15px;
+                    }
+                }
+                .title {
+                    color: white;
+                    font-size: 18px;
+                }
+                .sub-title {
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+section {
+    .row.course-detail {
+        margin-right: 0;
+        margin-left: 0;
+        padding: 4%;
+        border-radius: 30px;
+        color: white;
+        &:nth-child(1),
+        &:nth-child(7n-7) {
+            background-color: $blue-main;
+        }
+        &:nth-child(2),
+        &:nth-child(8n-8) {
+            background-color: $green-main;
+        }
+        &:nth-child(3n-3),
+        &:nth-child(5n-5) {
+            background-color: $violet-main;
+        }
+        &:nth-child(4),
+        &:nth-child(6n-6) {
+            background-color: $orange-main;
+        }
+    }
+    .col-5 {
+        .image img {
+            border-radius: 30px;
+        }
+    }
+    .col-7 {
+        padding-left: 30px;
+        .head {
+            position: relative;
+            &::before {
+                content: "";
+                height: 100%;
+                width: 5px;
+                position: absolute;
+                background-color: #fff;
+                left: -15px;
+            }
+            .location {
+                cursor: pointer;
+            }
+        }
+        .price h5 {
+            font-size: 30px;
+            padding: 15px 0;
+            margin: 0;
+        }
+        .list-material {
+            .material {
+                width: 100%;
+                position: relative;
+                display: flex;
+                flex-wrap: wrap;
+                .icon-material {
+                    height: 70px;
+                    width: 70px;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    border-radius: 50%;
+                    background-color: white;
+                    display: flex;
+                    align-items: center;
+                    flex: 1;
+                    max-width: 70px;
+                    img {
+                        height: 30px;
+                        margin: 0 auto;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+                .content {
+                    flex: 1;
+                    width: calc( 70px - 100%);
+                    padding-left: 15px;
+                }
+            }
+        }
+        .required {
+            .item-required {
+                i {
+                    padding-right: 10px;
+                    font-size: 18px;
+                }
+                padding-bottom: 10px;
+            }
+        }
+        .btn-box {
+            margin: 15px 0;
+            background-color: white;
+            box-shadow: 0 5px 5px 0 rgb(0 0 0 / 16%);
+            a {
+                color: $main;
+                font-size: 16px;
+                font-weight: 600;
+                i {
+                    padding-left: 15px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+.btn-box {
+    background-color: $main;
+    a {
+        color: white;
+    }
+}

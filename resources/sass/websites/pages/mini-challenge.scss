@@ -1,0 +1,19 @@
+@import"../../variables";
+@import '~@fancyapps/fancybox/dist/jquery.fancybox.min.css';
+@import"program-box.scss";
+@import"gallery.scss";
+#mini-challenge {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    section.program {
+        .sub-title {
+            p {
+                font-size: 18px;
+                margin-bottom: 0;
+            }
+        }
+        .activity {
+            padding: 50px 0 100px 0;
+        }
+    }
+}

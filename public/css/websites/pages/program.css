@@ -1,0 +1,441 @@
+@font-face {
+  font-family: "title-en";
+  src: url(/fonts/LemonMilk.woff2?6c8f946551602e10291477dbf005d1c7) format("woff2"), url(/fonts/LemonMilk.woff?4b08c1d289fedffff79cbc2812aa7d30) format("woff"), url(/fonts/LemonMilk.ttf?e30caaa902207e0a91e97d57748d3b0b) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "text-bold-en";
+  src: url(/fonts/GothamBold.woff2?d687cebdc496ee0358c734967035a386) format("woff2"), url(/fonts/Gotham-Bold.woff?3d92b1e15f336e5dc9519f7463367e37) format("woff"), url(/fonts/Gotham-Bold.ttf?5383ebb9d229cb2bcf77dba10540792a) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "text-en";
+  src: url(/fonts/GothamBook.woff2?174f6ce7339bb9df0491c4252119e57c) format("woff2"), url(/fonts/Gotham-Book.woff?843e5b0b14221ccde26a01cbd8942544) format("woff"), url(/fonts/Gotham-Book.ttf?dc7b424156648693d513ad8fc8c3da04) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "title-kh";
+  src: url(/fonts/Dangrek.woff2?898a90821bdf10a7e6d2198f70073a88) format("woff2"), url(/fonts/Dangrek.woff?e1cd2be94be98ca6eaba82ffce1e8588) format("woff"), url(/fonts/Dangrek.ttf?f89c626ce9bacea8918b4dedce0931e1) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "text-bold-kh";
+  src: url(/fonts/Kantumruy-Bold.woff2?0e3d6ea583862c3e387f0fec9097ced5) format("woff2"), url(/fonts/Kantumruy-Bold.woff?197f75ef79190708eb5e0c062ec3b5a6) format("woff"), url(/fonts/Kantumruy-Bold.ttf?5fa637e43f769d9d3ce1e505db6c3127) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "text-light-kh";
+  src: url(/fonts/Kantumruy-Light.woff2?c5c03f1c20c0b685d2343d7b4466c0a1) format("woff2"), url(/fonts/KantumruyLight.woff?af5b4903821b28ab62bea71bccd5860c) format("woff"), url(/fonts/KantumruyLight.ttf?b0312f0828970d39ef5dde7982a1bba6) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.modal-custom {
+  top: 0;
+}
+
+.modal-custom .modal-dialog {
+  max-width: 600px;
+}
+
+.modal-custom .modal-dialog .modal-content {
+  border-radius: 15px;
+}
+
+.modal-custom .modal-dialog .modal-content .modal-header-close {
+  padding-top: 10px;
+}
+
+.modal-custom .modal-dialog .modal-content .modal-header-close button {
+  color: #000;
+}
+
+.modal-custom .modal-dialog .modal-content .modal-body {
+  padding: 0px 40px 40px 40px;
+}
+
+.modal-custom .modal-dialog .modal-content .modal-body .list-group li {
+  padding: 0.375rem 0.75rem;
+  margin-bottom: 8px;
+  border: unset;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+}
+
+.modal-custom .modal-dialog .modal-content .modal-body .list-group li img {
+  width: 15px;
+  margin-right: 30px;
+}
+
+.modal-custom .modal-dialog .modal-content .modal-body .list-group li span {
+  font-size: 13px;
+  font-weight: 100;
+}
+
+.modal-custom .modal-dialog .modal-content .modal-body .or {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.modal-custom .modal-dialog .modal-content .modal-body .or h6 {
+  margin-bottom: 0;
+  opacity: 0.5;
+}
+
+.modal-custom .modal-dialog .modal-content .form label {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.modal-custom .modal-dialog .modal-content .form label.error {
+  color: #dc3545;
+}
+
+.modal-custom .modal-dialog .modal-content .form input {
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+  font-size: 13px;
+}
+
+.modal-custom .modal-dialog .modal-content .form .register button {
+  border: none;
+  background-color: #51be95;
+  border-radius: 10px;
+  padding: 0.375rem 15px;
+  color: #fff;
+}
+
+.modal-custom .modal-dialog .modal-content .form .register button span {
+  font-size: 13px;
+}
+
+.modal-custom .modal-dialog .modal-content .form .register button i {
+  vertical-align: middle;
+}
+
+.modal-map .modal-dialog .modal-content {
+  border-radius: 15px;
+}
+
+.modal-map .modal-dialog .modal-content button {
+  position: absolute;
+  top: 3%;
+  right: 3%;
+  z-index: 1;
+  font-size: 30px;
+}
+
+.modal-map .modal-dialog .modal-content .modal-body {
+  height: 300px;
+}
+
+.modal-map .modal-dialog .modal-content .modal-body iframe {
+  border-radius: 15px;
+}
+
+.modal-otp .modal-dialog .modal-content .modal-body .form form {
+  display: block;
+  padding-top: 10px;
+}
+
+.modal-otp .modal-dialog .modal-content .modal-body .form form .form-group {
+  padding: 0px 13px;
+}
+
+.modal-otp .modal-dialog .modal-content .modal-body .form form .form-group input {
+  height: 50px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.modal-otp .modal-dialog .modal-content .modal-body .form form .Continue {
+  padding: 30px 0;
+}
+
+#exampleModalPayment .modal-dialog .modal-content .modal-body {
+  padding: 0 30px 30px 30px;
+}
+
+#exampleModalPayment .modal-dialog .modal-content .modal-body .blog {
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.16);
+  padding: 20px 0;
+  border-radius: 15px;
+}
+
+#exampleModalPayment .modal-dialog .modal-content .modal-body .blog .col-3 {
+  padding: 0 7px 0 15px;
+}
+
+#exampleModalPayment .modal-dialog .modal-content .modal-body .blog .col-3 .img {
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+}
+
+#exampleModalPayment .modal-dialog .modal-content .modal-body .blog .col-9 {
+  padding: 0 15px 0 7px;
+}
+
+#exampleModalPayment .modal-dialog .modal-content .modal-body .blog .col-9 h6,
+#exampleModalPayment .modal-dialog .modal-content .modal-body .blog .col-9 p {
+  margin-bottom: 0;
+}
+
+#exampleModalPayment .modal-dialog .modal-content .modal-body .pay-method {
+  margin-top: 20px;
+}
+
+#exampleModalPayment .modal-dialog .modal-content .modal-body .pay-method ul li a {
+  padding: 10px;
+}
+
+#exampleModalPayment .modal-dialog .modal-content .modal-body .pay-method ul li a img {
+  width: 70px;
+}
+
+#exampleModalPayment .modal-dialog .modal-content .modal-body .pay-method .form {
+  margin-top: 10px;
+}
+
+.swiper-slide:nth-child(1) .course-box,
+.swiper-slide:nth-child(7n-7) .course-box {
+  background-color: #68b8e7;
+}
+
+.swiper-slide:nth-child(2) .course-box,
+.swiper-slide:nth-child(8n-8) .course-box {
+  background-color: #51be95;
+}
+
+.swiper-slide:nth-child(3) .course-box,
+.swiper-slide:nth-child(5n-5) .course-box {
+  background-color: #512e89;
+}
+
+.swiper-slide:nth-child(4) .course-box,
+.swiper-slide:nth-child(6n-6) .course-box {
+  background-color: #f57e20;
+}
+
+.swiper-slide .course-box {
+  width: 100%;
+  height: 100%;
+  padding: 12% 0;
+  justify-content: center;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.16);
+}
+
+.swiper-slide .course-box .content-box {
+  width: 100%;
+  padding: 0 20px;
+}
+
+.swiper-slide .course-box .content-box .icon-course {
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+.swiper-slide .course-box .content-box .icon-course img {
+  width: 60px;
+}
+
+.swiper-slide .course-box .content-box .content {
+  text-align: left;
+}
+
+.swiper-slide .course-box .content-box .content h4 {
+  font-size: 18px;
+  color: #fff;
+}
+
+.swiper-slide .course-box .content-box .content .sub-title p {
+  font-size: 14px;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.courses {
+  padding-top: 100px;
+}
+
+.courses .list-course .col-3:nth-child(1) .course,
+.courses .list-course .col-3:nth-child(7n-7) .course {
+  background-color: #68b8e7;
+}
+
+.courses .list-course .col-3:nth-child(2) .course,
+.courses .list-course .col-3:nth-child(8n-8) .course {
+  background-color: #51be95;
+}
+
+.courses .list-course .col-3:nth-child(3) .course,
+.courses .list-course .col-3:nth-child(5n-5) .course {
+  background-color: #512e89;
+}
+
+.courses .list-course .col-3:nth-child(4) .course,
+.courses .list-course .col-3:nth-child(6n-6) .course {
+  background-color: #f57e20;
+}
+
+.courses .list-course .col-3 .course {
+  padding: 30px 20px;
+  border-radius: 15px;
+}
+
+.courses .list-course .col-3 .course .icon-course {
+  height: 50px;
+}
+
+.courses .list-course .col-3 .course .icon-course img.img-fluid {
+  height: 50px;
+  padding-bottom: 15px;
+}
+
+.courses .list-course .col-3 .course .title {
+  color: white;
+  font-size: 18px;
+}
+
+.courses .list-course .col-3 .course .sub-title {
+  color: white;
+}
+
+section .row.course-detail {
+  margin-right: 0;
+  margin-left: 0;
+  padding: 4%;
+  border-radius: 30px;
+  color: white;
+}
+
+section .row.course-detail:nth-child(1),
+section .row.course-detail:nth-child(7n-7) {
+  background-color: #68b8e7;
+}
+
+section .row.course-detail:nth-child(2),
+section .row.course-detail:nth-child(8n-8) {
+  background-color: #51be95;
+}
+
+section .row.course-detail:nth-child(3n-3),
+section .row.course-detail:nth-child(5n-5) {
+  background-color: #512e89;
+}
+
+section .row.course-detail:nth-child(4),
+section .row.course-detail:nth-child(6n-6) {
+  background-color: #f57e20;
+}
+
+section .col-5 .image img {
+  border-radius: 30px;
+}
+
+section .col-7 {
+  padding-left: 30px;
+}
+
+section .col-7 .head {
+  position: relative;
+}
+
+section .col-7 .head::before {
+  content: "";
+  height: 100%;
+  width: 5px;
+  position: absolute;
+  background-color: #fff;
+  left: -15px;
+}
+
+section .col-7 .head .location {
+  cursor: pointer;
+}
+
+section .col-7 .price h5 {
+  font-size: 30px;
+  padding: 15px 0;
+  margin: 0;
+}
+
+section .col-7 .list-material .material {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section .col-7 .list-material .material .icon-material {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  max-width: 70px;
+}
+
+section .col-7 .list-material .material .icon-material img {
+  height: 30px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section .col-7 .list-material .material .content {
+  flex: 1;
+  width: calc( 70px - 100%);
+  padding-left: 15px;
+}
+
+section .col-7 .required .item-required {
+  padding-bottom: 10px;
+}
+
+section .col-7 .required .item-required i {
+  padding-right: 10px;
+  font-size: 18px;
+}
+
+section .col-7 .btn-box {
+  margin: 15px 0;
+  background-color: white;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.16);
+}
+
+section .col-7 .btn-box a {
+  color: #0c2041;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+section .col-7 .btn-box a i {
+  padding-left: 15px;
+  font-weight: 600;
+}
+
+.btn-box {
+  background-color: #0c2041;
+}
+
+.btn-box a {
+  color: white;
+}
+

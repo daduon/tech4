@@ -1,0 +1,35 @@
+@import"../variables";
+.footer-area {
+    background-color: $main;
+    .foot-logo {
+        height: 80px;
+        .img-fluid.img-foot-logo {
+            height: 80px;
+        }
+    }
+    h4.foot-title {
+        font-size: 26px;
+        color: #fff;
+        font-weight: 600;
+        padding: 15px 0;
+    }
+    .foot-text {
+        color: $white;
+        p.text-body {
+            color: $white!important;
+            padding-top: 15px;
+        }
+    }
+    .con-social ul.nav li a {
+        color: white;
+    }
+    .footer-botton {
+        border-top: 1px solid #fff;
+        .col-4 {
+            padding: 20px 15px;
+            span {
+                color: #fff;
+            }
+        }
+    }
+}

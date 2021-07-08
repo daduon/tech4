@@ -1,0 +1,175 @@
+@import"../../variables";
+@import"program-box.scss";
+.slide {
+    width: 100%;
+}
+
+.container-slide {
+    height: 100%;
+    position: absolute;
+    width: 45%;
+    top: 0;
+    left: 5%;
+    .slide-caption {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        padding: 0 15px;
+        transform: translateY(-50%);
+        h2.title-slide {
+            font-size: 60px;
+        }
+        .slide-text {
+            p.text-body {
+                font-size: 20px;
+            }
+        }
+        .btn-slide {
+            display: inline-block;
+            background-color: #0c2041;
+            padding: 10px 20px;
+            align-items: center;
+            text-transform: uppercase;
+            border-radius: 4px;
+            a {
+                color: white;
+            }
+        }
+    }
+}
+
+.carousel-indicators li {
+    background-color: $main;
+}
+
+section.about {}
+
+.list-cus-say {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    .row {
+        display: grid;
+        grid-auto-flow: column;
+        //gap: 10px;
+        .col {
+            background-color: $main;
+            color: white;
+        }
+    }
+    .testimonial {
+        .content-text {
+            height: 200px;
+            overflow: auto;
+            &::-webkit-scrollbar {
+                width: 2px;
+                background-color: #fff;
+            }
+            &::-webkit-scrollbar-thumb {
+                background-color: #000;
+            }
+        }
+    }
+}
+
+.swiper-container {
+    .swiper-slide {
+        image {
+            border-radius: 15px;
+        }
+    }
+}
+
+.swiper-slide {
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.partner {
+    .list-partner {
+        .content-partner {
+            .image {
+                box-shadow: 0 5px 5px 0px rgb(0 0 0 / 16%);
+                padding: 10px;
+                background-color: #fff;
+                border-radius: 20px;
+            }
+        }
+    }
+}
+
+.why {
+    .swiper-slide .course-box {
+        text-align: center;
+        .icon-course {
+            text-align: center!important;
+            img {
+                width: 70px;
+            }
+        }
+        h4.title {
+            font-size: 18px!important;
+            text-align: center;
+        }
+        .sub-title {
+            text-align: center;
+        }
+    }
+}
+
+.subscribe {
+    .card {
+        background-color: #0c2041;
+        padding: 20px 50px 20px 50px;
+        color: #fff;
+        border-radius: 20px;
+        form {
+            .input-group {
+                width: 60%;
+                margin: auto;
+                input {
+                    border-radius: 10px 0px 0px 10px;
+                    &:focus {
+                        box-shadow: none;
+                    }
+                }
+                .input-group-btn {
+                    border-radius: 0px 10px 10px 0px;
+                    background-color: #51be95;
+                    .btn {
+                        font-size: 14.6px;
+                        font-weight: 600;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 760px) {
+    .swiper-button-next {
+        right: 20px;
+        transform: rotate(90deg);
+    }
+    .swiper-button-prev {
+        left: 20px;
+        transform: rotate(90deg);
+    }
+}

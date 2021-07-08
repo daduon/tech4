@@ -1,0 +1,15 @@
+@import'../../variables';
+html:lang(kh) {
+    span.font,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "title-kh";
+        &.title {
+            text-transform: capitalize!important;
+        }
+    }
+}

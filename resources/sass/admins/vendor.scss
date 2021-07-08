@@ -1,0 +1,16 @@
+//Fontawesome
+@import '../../../node_modules/bootstrap/dist/css/bootstrap.css';
+@import '../../../node_modules/font-awesome/css/font-awesome.min.css';
+@import "../fontawesome";
+
+// Bootstrap
+@import '../../../node_modules/select2/src/scss/core';
+@import '../../../node_modules/jquery-confirm/css/jquery-confirm.css';
+@import '../../../node_modules/bootstrap-daterangepicker/daterangepicker.css';
+@import "quick-sidebar";
+@import '../../../node_modules/izitoast/dist/css/iziToast.min.css';
+// Stisla
+@import '../stisla/components';
+@import '../stisla/style';
+@import 'bootstrap-custom';
+@import 'customize';
